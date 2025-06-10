@@ -1,27 +1,27 @@
 const menuList = [
   {
     image: "/menu/menu1.png",
-    alt: "Spaghetti Bolognese",
+    alt: "Urutan Babi",
   },
   {
     image: "/menu/menu2.png",
-    alt: "Chicken Curry",
+    alt: "Urutan Ayam",
   },
   {
     image: "/menu/menu3.png",
-    alt: "Vegetable Stir Fry",
+    alt: "Samsam",
   },
   {
     image: "/menu/menu4.png",
-    alt: "Beef Tacos",
+    alt: "Urutan Babi Pedas",
   },
   {
     image: "/menu/menu5.png",
-    alt: "Pancakes",
+    alt: "Urutan Ayam Pedas",
   },
   {
     image: "/menu/menu6.png",
-    alt: "Chocolate Cake",
+    alt: "Samsam Pedas",
   },
 ];
 

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Facebook, Instagram } from "lucide-react";
+import { FaFacebook, FaInstagram,FaTiktok } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -22,10 +22,12 @@ const Footer = () => {
 
         <div className="flex space-x-4">
           <a
-            href="#"
+            href="https://www.facebook.com/profile.php?id=61567495676660&_rdc=1&_rdr#"
             aria-label="Facebook"
-            className="text-black hover:text-blue-500">
-            <Facebook className="w-6 h-6" />
+            className="text-black hover:text-blue-500"
+            target="_blank"
+            rel="noopener noreferrer">
+            <FaFacebook className="w-6 h-6" />
           </a>
           <a
             href="https://www.instagram.com/men_nara?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
@@ -33,7 +35,15 @@ const Footer = () => {
             className="text-black hover:text-pink-500"
             target="_blank"
             rel="noopener noreferrer">
-            <Instagram className="w-6 h-6" />
+            <FaInstagram className="w-6 h-6" />
+          </a>
+          <a
+            href="https://www.tiktok.com/@dapurmennara?_t=8qffhxe4kbk&_r=1"
+            aria-label="TikTok"
+            className="text-black hover:text-blue-400"
+            target="_blank"
+            rel="noopener noreferrer">
+            <FaTiktok className="w-6 h-6" />
           </a>
         </div>
       </div>

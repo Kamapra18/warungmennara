@@ -18,7 +18,7 @@ const Footer = () => {
           />
         </div>
 
-        <div className="text-sm text-black font-bold">© 2023 FOOD SHOP</div>
+        <div className="text-sm text-black font-bold">© 2025 Warung Mennara</div>
 
         <div className="flex space-x-4">
           <a

@@ -12,38 +12,58 @@ export type FAQDataType = {
 export const faqData: FAQDataType = {
   Produk: [
     {
-      question: "Apa saja produk yang tersedia di Warung Mennara?",
+      question: "Produk mana yang paling diminati?",
       answer:
-        "Kami menyediakan berbagai macam frozen food khas Bali seperti ayam betutu, sate lilit, dan lawar siap saji."
+        "Yang paling banyak diminati saat ini adalah Urutan Smoky (urutan babi asap)."
     },
     {
-      question: "Apakah produk harus disimpan di freezer?",
+      question: "Apakah tersedia versi halalnya(ayam)?",
       answer:
-        "Ya, semua produk kami adalah frozen food dan harus disimpan di freezer untuk menjaga kualitasnya."
-    }
+        "Ya, tersedia. Kami punya Urutan Ayam sebagai versi halalnya, jadi tetap bisa menikmati cita rasa khas Bali dengan tenang."
+    },
+    {
+      question: "Berapa lama masa simpan urutan dalam freezer?",
+      answer:
+        "Kalau kondisi kemasan masih tersegel dengan baik, bisa sampai 1 tahun, kalau sudah terbuka paling bagus di simpam selama 6 bulan"
+    },
+        {
+      question: "Apakah produk sudah matang atau masih mentah?",
+      answer:
+        "Ada yang sudah matang dan ada yang belum matang (dalam kondisi sudah dilumuri bumbu)."
+    },
   ],
   Pengiriman: [
     {
-      question: "Apakah Warung Mennara melayani pengiriman ke seluruh Indonesia?",
+      question: "Apakah pengiriman tersedia ke seluruh bali atau luar kota juga?",
       answer:
-        "Saat ini kami melayani pengiriman ke sebagian besar wilayah Indonesia melalui jasa ekspedisi terpercaya."
+        "Ya, pengiriman tersedia ke seluruh Bali dan juga luar kota dengan menggunakan jasa ekspedisi."
     },
     {
-      question: "Kapan pesanan saya akan dikirim?",
+      question: "Apa saja jasa pengiriman yang digunakan?",
       answer:
-        "Pesanan akan dikirim dalam 1-2 hari kerja setelah pembayaran dikonfirmasi."
-    }
+        "Kami menggunakan kurir sendiri, ojek online (ojol), dan juga jasa ekspedisi."
+    },
+        {
+      question: "Bagaimana pengemasan produk agar tetap aman saat pengiriman?",
+      answer:
+        "Pengemasan disesuaikan dengan jarak tujuan pengiriman, mulai dari menggunakan tas plastik atau goodybag untuk jarak dekat, hingga menggunakan box styrofoam untuk pengiriman yang lebih jauh."
+    },
+        {
+      question: "Berapa lama produk bisa tahan selama pengiriman?",
+      answer:
+        "Produk bisa tahan hingga 7 hari, asalkan dikemas dengan baik dan tetap dalam kondisi beku selama pengiriman."
+    },
   ],
   Pembayaran: [
     {
-      question: "Metode pembayaran apa saja yang tersedia?",
+      question: "Apa saja metode pembayaran yang tersedia?",
       answer:
-        "Kami menerima pembayaran melalui transfer bank, e-wallet (OVO, GoPay, DANA), dan QRIS."
+        "Pembayaran bisa dilakukan secara tunai atau melalui transfer"
     },
     {
-      question: "Apakah pembayaran aman?",
+      question: "Apakah harga sudah termasuk ongkos kirim?",
       answer:
-        "Ya, sistem pembayaran kami menggunakan gateway yang telah tersertifikasi untuk memastikan keamanan transaksi."
+        "harga belum termasuk ongkos kirim, jadi akan ada biaya tambahan sesuai dengan jarak pengiriman."
     }
   ]
 };

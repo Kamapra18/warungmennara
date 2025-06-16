@@ -10,7 +10,9 @@ export default function FAQSection() {
   const [activeCategory, setActiveCategory] = useState<string>(categories[0]);
 
   return (
-    <section id="faq" className=" mx-auto px-4 sm:px-6 lg:px-10 py-20 bg-[#E8C8A1] rounded-lg shadow-md">
+    <section
+      id="faq"
+      className=" mx-auto px-4 sm:px-6 lg:px-10 py-20 bg-[#E8C8A1] shadow-md">
       <header className="mb-8 text-center">
         <h1 className="text-3xl sm:text-4xl font-bold text-[#4A2B0B]">FAQ</h1>
       </header>

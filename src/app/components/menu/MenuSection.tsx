@@ -19,17 +19,19 @@ export default function MenuSection() {
 
   return (
     <section id="menu" className="bg-[#E8C8A1] py-16 px-4 text-center">
-      <h2 className="text-2xl sm:text-3xl font-bold mb-10 text-[#4B3A2F]">
+      <h2 className="text-2xl sm:text-3xl font-bold mb-2 text-[#4B3A2F]">
         MENU CEPAT, ENAK, & PRAKTIS
       </h2>
+      <p className="text-[#4B3A2F] text-sm sm:text-base mb-10">
+        Klik salah satu menu untuk melihat detail dan melakukan pemesanan
+      </p>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-6 max-w-6xl mx-auto">
         {menuList.map((item, index) => (
-          <div
+          <button
             key={index}
             onClick={() => setSelectedItem(item)}
-            className="bg-[#D4AA7D] rounded-xl p-3 sm:p-4 text-white shadow-md cursor-pointer hover:scale-105 transition-transform"
-          >
+            className="relative bg-[#D4AA7D] rounded-xl p-3 sm:p-4 text-white shadow-md hover:scale-105 transition-transform text-center">
             <div className="w-28 h-28 sm:w-40 sm:h-40 mx-auto mb-4 relative rounded-full overflow-hidden border-4 border-white shadow">
               <Image
                 src={item.image}
@@ -38,16 +40,33 @@ export default function MenuSection() {
                 className="object-cover"
               />
             </div>
-            <h3 className="text-base sm:text-xl font-bold text-[#4A2B0B]">{item.alt}</h3>
-            <p className="text-sm mt-1 text-[#4A2B0B]">{item.price}</p>
-          </div>
+            <h3 className="text-base sm:text-xl font-bold text-[#4A2B0B] text-center">
+              {item.alt}
+            </h3>
+            <p className="text-sm mt-1 text-[#4A2B0B] text-center">
+              {item.price}
+            </p>
+
+            <a
+              href={`https://wa.me/6281237735005?text=Apakah%20${encodeURIComponent(
+                item.alt
+              )}%20masih%20tersedia%3F`}
+              onClick={(e) => e.stopPropagation()}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-block bg-[#a4551b] justify-center text-white px-3 py-1.5 rounded-md text-sm font-semibold hover:bg-[#873e12] transition">
+              Order Now
+            </a>
+          </button>
         ))}
       </div>
 
       {selectedItem && (
         <Modal onClose={() => setSelectedItem(null)}>
           <div className="max-w-xs sm:max-w-md w-full">
-            <h3 className="text-lg sm:text-xl font-bold mb-2">{selectedItem.alt}</h3>
+            <h3 className="text-lg sm:text-xl font-bold mb-2">
+              {selectedItem.alt}
+            </h3>
 
             {selectedItem.images && selectedItem.images.length > 0 ? (
               <ManualSlider images={selectedItem.images} />
@@ -86,6 +105,16 @@ export default function MenuSection() {
                   Tidak ada varian
                 </p>
               )}
+
+              <a
+                href={`https://wa.me/6281237735005?text=Apakah%20${encodeURIComponent(
+                  selectedItem.alt
+                )}%20masih%20tersedia%3F`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-block bg-green-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-700 transition">
+                Order via WhatsApp
+              </a>
             </div>
           </div>
         </Modal>
@@ -112,14 +141,12 @@ function ManualSlider({ images }: { images: string[] }) {
 
       <button
         onClick={prev}
-        className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 text-black px-2 py-1 rounded-full shadow text-xl"
-      >
+        className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 text-black px-2 py-1 rounded-full shadow text-xl">
         ‹
       </button>
       <button
         onClick={next}
-        className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/80 text-black px-2 py-1 rounded-full shadow text-xl"
-      >
+        className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/80 text-black px-2 py-1 rounded-full shadow text-xl">
         ›
       </button>
 

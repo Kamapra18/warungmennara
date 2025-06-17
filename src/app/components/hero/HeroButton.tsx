@@ -8,7 +8,7 @@ const HeroButtons = () => {
         View Menu
       </a>
       <a
-        href="https://wa.me/6281234567890" // Ganti dengan nomor WA kamu
+        href="https://wa.me/6281237735005" 
         target="_blank"
         rel="noopener noreferrer"
         className="bg-[#a4551b] text-white px-6 py-2 rounded-md hover:bg-[#873e12] transition"

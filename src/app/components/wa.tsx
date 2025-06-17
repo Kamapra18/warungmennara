@@ -3,7 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const WhatsAppFloatingButton: React.FC = () => {
   const phoneNumber = "6281237735005";
-  const message = "Halo, boleh saya pesan pembuatan web? nanti saya kasih 5jt";
+  const message = "Halo, saya ingin tanya dulu tentang produk Warung Mennara, bisa?";
   const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
     message
   )}`;

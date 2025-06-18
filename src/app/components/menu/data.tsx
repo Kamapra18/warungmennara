@@ -1,3 +1,4 @@
+
 const menuList = [
   {
     image: "/menu/menu1.jpg",
@@ -20,11 +21,15 @@ const menuList = [
   },
   {
     image: "/menu/menu2.jpg",
-    images: ["/menu/menu2.jpg", "/menu/menu2-2.jpg"],
-    alt: "Chicken Bacon Rasher",
-    title: "Chicker Bacon Rasher 500gr",
-    price: "Rp57.000",
-    variants: ["-"],
+    images: ["/menu/menu2.jpg", "/menu/menu2-3.png"],
+    alt: "Chicken & Pork Bacon",
+    title: "Bacon Selection (500gr)",
+    price: "Rp57.000 | Rp70.000 | Rp94.000",
+    variants: [
+      "Streaky pork bacon",
+      "Chicken bacon rasher",
+      "Pork bacon slice",
+    ],
   },
   {
     image: "/menu/menu3.jpg",
@@ -45,10 +50,15 @@ const menuList = [
   {
     image: "/menu/menu5.JPG",
     images: ["/menu/menu5.JPG", "/menu/menu5-2.jpg"],
-    alt: "Urutan Asap",
+    alt: "Urutan biasa & urutan Asap",
     title: "Urutan Asap 500gr",
-    price: "Rp77.500",
-    variants: ["-"],
+    price: "Rp70.000 - Rp77.500",
+    variants: [
+      "urutan ayam",
+      "urutan asap ayam",
+      "urutan babi",
+      "urutan asap babi",
+    ],
   },
   {
     image: "/menu/menu6.png",
@@ -56,6 +66,46 @@ const menuList = [
     alt: "Urutan Majemuh",
     title: "Urutan Majemuh",
     price: "Rp77.500",
+    variants: ["-"],
+  },
+  {
+    image: "/menu/menu8.jpg",
+    images: ["/menu/menu8.jpg"],
+    alt: "Lapchiong",
+    title: "Lapchiong",
+    price: "Rp75.000 - Rp86.000",
+    variants: ["Lapchiong BB 500gr", "Lapchiong Ayam 500gr"],
+  },
+  {
+    image: "/menu/menu9.jpg",
+    images: ["/menu/menu9.jpg", "/menu/menu9-2.jpg"],
+    alt: "Bakso",
+    title: "Bakso",
+    price: "Rp53.000 - Rp58.000",
+    variants: ["Bakso Ayam", "Bakso Babi"],
+  },
+  {
+    image: "/menu/menu10.png",
+    images: ["/menu/menu10-2.jpg", "/menu/menu10.png"],
+    alt: "Sosis",
+    title: "Sosis",
+    price: "Rp54.000 - Rp58.000",
+    variants: ["Sosis Ayam", "Sosis Babi"],
+  },
+  {
+    image: "/menu/menu11.png",
+    images: ["/menu/menu11.png", "/menu/menu11-2.png"],
+    alt: "Babi Goreng Daun Jeruk",
+    title: "Babi Goreng Daun Jeruk",
+    price: "Rp70.000",
+    variants: ["-"],
+  },
+  {
+    image: "/menu/menu12.jpg",
+    images: ["/menu/menu12.jpg"],
+    alt: "Babi Kumkum",
+    title: "Babi Kumkum",
+    price: "Rp70.000",
     variants: ["-"],
   },
 ];

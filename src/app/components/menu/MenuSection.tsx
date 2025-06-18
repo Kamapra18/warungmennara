@@ -64,7 +64,7 @@ export default function MenuSection() {
       {selectedItem && (
         <Modal onClose={() => setSelectedItem(null)}>
           <div className="max-w-xs sm:max-w-md w-full">
-            <h3 className="text-lg sm:text-xl font-bold mb-2">
+            <h3 className="text-lg sm:text-xl text-[#4e2a1e] font-bold mb-2">
               {selectedItem.alt}
             </h3>
 

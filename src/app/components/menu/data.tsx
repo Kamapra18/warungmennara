@@ -1,4 +1,3 @@
-
 const menuList = [
   {
     image: "/menu/menu1.jpg",
@@ -50,23 +49,18 @@ const menuList = [
   {
     image: "/menu/menu5.JPG",
     images: ["/menu/menu5.JPG", "/menu/menu5-2.jpg"],
-    alt: "Urutan biasa & urutan Asap",
-    title: "Urutan Asap 500gr",
-    price: "Rp70.000 - Rp77.500",
-    variants: [
-      "urutan ayam",
-      "urutan asap ayam",
-      "urutan babi",
-      "urutan asap babi",
-    ],
+    alt: "Urutan Ayam",
+    title: "Urutan Ayam",
+    price: "Rp70.000",
+    variants: ["urutan biasa", "urutan asap"],
   },
   {
     image: "/menu/menu6.png",
-    images: ["/menu/menu6-2.jpg", "/menu/menu6-3.jpg"],
-    alt: "Urutan Majemuh",
-    title: "Urutan Majemuh",
+    images: ["/menu/menu6.png"],
+    alt: "Urutan Babi",
+    title: "Urutan Asap & urutan majemuh",
     price: "Rp77.500",
-    variants: ["-"],
+    variants: ["Urutan Majemuh", "Urutan Asap"],
   },
   {
     image: "/menu/menu8.jpg",

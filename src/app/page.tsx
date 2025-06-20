@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import WhatsAppFloatingButton from "./components/wa";
+import VideoUlasanPage from "./components/video/video";
 
 export default function FAQPage() {
   return (
@@ -15,6 +16,7 @@ export default function FAQPage() {
       <MenuSection />
       <UlasanSection />
       <FAQSection />
+      <VideoUlasanPage />
       <ContactSection />
       <WhatsAppFloatingButton />
       <Footer/>

@@ -15,8 +15,8 @@ export default function UlasanSection() {
             key={index}
             className="bg-white rounded-xl shadow p-2 flex justify-center items-center">
             <Image
-              src={item.image}
-              alt={item.alt}
+              src={item.image ?? "/placeholder.png"}
+              alt={item.alt ?? "Testimoni"}
               width={400}
               height={200}
               className="rounded-lg object-contain"

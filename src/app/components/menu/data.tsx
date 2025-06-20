@@ -56,8 +56,8 @@ const menuList = [
     variants: ["Urutan biasa", "urutan asap"],
   },
   {
-    image: "/menu/menu6.png",
-    images: ["/menu/menu6.png"],
+    image: "/menu/menu6-3.png",
+    images: ["/menu/menu6-3.png", "/menu/menu6.png"],
     alt: "Urutan Babi",
     title: "Urutan Asap & urutan majemuh",
     price: "Rp77.500",

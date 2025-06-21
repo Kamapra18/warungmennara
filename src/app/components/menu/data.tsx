@@ -1,4 +1,3 @@
-
 const menuList = [
   {
     image: "/menu/menu1.jpg",
@@ -57,14 +56,14 @@ const menuList = [
   },
   {
     image: "/menu/menu6-3.png",
-    images: ["/menu/menu6-3.png", "/menu/menu6.png" ,"/menu/menu5.jpg"],
+    images: ["/menu/menu6-3.png", "/menu/menu6.png", "/menu/menu5.JPG"],
     alt: "Urutan Babi",
     title: "Urutan Asap & urutan majemuh",
     price: "Rp77.500",
     variants: ["Urutan Majemuh", "Urutan Asap Smoky", "Urutan Goreng"],
   },
   {
-    image:"/menu/menu7-2.png",
+    image: "/menu/menu7-2.png",
     images: ["/menu/menu7-2.png", "/menu/menu7.png"],
     alt: "Dendeng Babi",
     title: "Dendeng Babi Asap Sambal Kecombrang",

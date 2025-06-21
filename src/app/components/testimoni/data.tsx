@@ -4,10 +4,6 @@ const ulasan = [
     alt: "Ulasan dari J Landa",
   },
   {
-    image: "/ulasan/ulasan2.png",
-    alt: "Ulasan pelanggan lainnya",
-  },
-  {
     image: "/ulasan/ulasan3.png",
     alt: "Ulasan pelanggan lainnya",
   },
@@ -19,8 +15,10 @@ const ulasan = [
     image: "/ulasan/ulasan5.png",
     alt: "Ulasan pelanggan lainnya",
   },
-  { image: "/ulasan/ulasan6.png", 
-    alt: "Ulasan pelanggan lainnya" },
+  {
+    image: "/ulasan/testimoni1.png",
+    alt: "Ulasan Pelanggan lainnya",
+  },
 ];
 
 export default ulasan;

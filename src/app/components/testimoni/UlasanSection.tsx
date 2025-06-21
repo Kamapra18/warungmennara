@@ -6,7 +6,7 @@ export default function UlasanSection() {
     <section id="testimonials" className="bg-[#D4AA7D] py-16 px-4 text-center">
       <h2 className="text-3xl text-[#4e2a1e] font-bold mb-2">APA KATA MEREKA?</h2>
       <p className="text-sm text-gray-700 mb-10">
-        Tentang Warung Mennara di Google Maps
+        Tentang Warung Mennara 
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">

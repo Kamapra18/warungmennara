@@ -3,6 +3,7 @@ const menuList = [
     image: "/menu/menu1.jpg",
     images: [
       "/menu/menu1.jpg",
+      "/menu/menu1-1.jpg",
       "/menu/menu1-2.jpg",
       "/menu/menu1-3.jpg",
       "/menu/menu1-4.jpg",
@@ -19,15 +20,23 @@ const menuList = [
     ],
   },
   {
+    image: "/menu/menu5.JPG",
+    images: ["/menu/menu5.JPG", "/menu/menu6.png", "/menu/menu6-3.png"],
+    alt: "Urutan Babi",
+    title: "Urutan Asap & urutan majemuh",
+    price: "Rp77.500",
+    variants: ["Urutan Majemuh", "Urutan Asap Smoky", "Urutan Goreng"],
+  },
+  {
     image: "/menu/menu2.jpg",
     images: ["/menu/menu2.jpg", "/menu/menu2-3.png"],
     alt: "Chicken & Pork Bacon",
     title: "Bacon Selection (500gr)",
-    price: "Rp57.000 | Rp70.000 | Rp94.000",
+    price: "Klik untuk lihat varian harga",
     variants: [
-      "Streaky pork bacon",
-      "Chicken bacon rasher",
-      "Pork bacon slice",
+      "Streaky pork bacon - Rp57.000 ",
+      "Chicken bacon rasher - Rp70.000",
+      "Pork bacon slice - Rp94.000",
     ],
   },
   {
@@ -48,19 +57,11 @@ const menuList = [
   },
   {
     image: "/menu/menu5-2.jpg",
-    images: ["/menu/menu5-2.jpg"],
+    images: ["/menu/menu5-2.jpg", "/menu/menu5-3.jpg"],
     alt: "Urutan Ayam",
     title: "Urutan Biasa & Urutan Asap",
     price: "Rp70.000 - Rp.75.000",
     variants: ["Urutan biasa", "urutan asap"],
-  },
-  {
-    image: "/menu/menu6-3.png",
-    images: ["/menu/menu6-3.png", "/menu/menu6.png", "/menu/menu5.JPG"],
-    alt: "Urutan Babi",
-    title: "Urutan Asap & urutan majemuh",
-    price: "Rp77.500",
-    variants: ["Urutan Majemuh", "Urutan Asap Smoky", "Urutan Goreng"],
   },
   {
     image: "/menu/menu7-2.png",

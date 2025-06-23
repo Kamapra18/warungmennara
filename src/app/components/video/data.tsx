@@ -8,12 +8,12 @@ const videos = [
   {
     id: 2,
     title: "Video 2",
-    videoUrl: "/video/video3.mp4",
+    videoUrl: "/video/video4.mp4",
   },
   {
     id: 3,
-    title: "Video 3",
-    videoUrl: "/video/video1.mp4",
+    title: "Video ",
+    videoUrl: "/video/video5.mp4",
   },
 ];
 
